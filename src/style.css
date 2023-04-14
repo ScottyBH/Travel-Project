@@ -70,7 +70,6 @@ footer p {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  margin-right: 20px;
 }
 
 footer ul {
@@ -100,7 +99,8 @@ section {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 60px;
 }
 
 @media (max-width: 900px) {
