@@ -181,6 +181,15 @@ section.secondary {
   padding: 30px;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 .grid-images {
   width: 100%;
 }
@@ -223,5 +232,13 @@ section.secondary {
   }
   img {
     width: 400px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
