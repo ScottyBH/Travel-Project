@@ -187,6 +187,7 @@ section.secondary {
 
 .embed {
   width: 100%;
+  max-width: 100%;
   aspect-ratio: 1/1;
 }
 
@@ -245,4 +246,8 @@ section.secondary {
   .embed {
     aspect-ratio: 16/9;
   }
+}
+
+img {
+  max-width: 100% !important;
 }
